@@ -74,10 +74,10 @@ int main(int arg, char *argv[])
     long startTime, endTime = 0;
 
     ofstream outdata;
-    outdata.open("C:/Users/adamk/OneDrive/Plocha/Extended essay/bruteForce.txt");
+    outdata.open("OUTPUT FILE PATH");
     outdata.close();
     
-    outdata.open("C:/Users/adamk/OneDrive/Plocha/Extended essay/bruteForce.txt", ios::app);
+    outdata.open("OUTPUT FILE PATH", ios::app);
 
     for(n = 1; n < 40; n++)
     {
