@@ -72,10 +72,10 @@ int main(int arg, char *argv[])
     long startTime, endTime = 0;
 
     ofstream outdata;
-    outdata.open("C:/Users/adamk/OneDrive/Plocha/Extended essay/tabulation.txt");
+    outdata.open("OUTPUT FILE PATH");
     outdata.close();
     
-    outdata.open("C:/Users/adamk/OneDrive/Plocha/Extended essay/tabulation.txt", ios::app);
+    outdata.open("OUTPUT FILE PATH", ios::app);
 
     for(n = 150; n < 2500; n += 150)
     {
